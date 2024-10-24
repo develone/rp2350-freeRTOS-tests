@@ -8,3 +8,18 @@ These steps are needed since my github already has a repo FreeRTOS-Kernel.git
 git clone https://github.com/raspberrypi/FreeRTOS-Kernel.git
 
 git submodule update --init
+
+devel@pi5-70:~/rp2350-freeRTOS-tests/build $ make
+[  9%] Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+[ 18%] Linking ASM executable bs2_default.elf
+[ 18%] Built target bs2_default
+[ 27%] Building C object freertos-RPi/CMakeFiles/freertos.dir/FreeRTOS-Kernel/event_groups.c.obj
+[ 36%] Building C object freertos-RPi/CMakeFiles/freertos.dir/FreeRTOS-Kernel/list.c.obj
+[ 45%] Building C object freertos-RPi/CMakeFiles/freertos.dir/FreeRTOS-Kernel/queue.c.obj
+[ 54%] Building C object freertos-RPi/CMakeFiles/freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj
+[ 63%] Building C object freertos-RPi/CMakeFiles/freertos.dir/FreeRTOS-Kernel/tasks.c.obj
+[ 72%] Building C object freertos-RPi/CMakeFiles/freertos.dir/FreeRTOS-Kernel/timers.c.obj
+[ 81%] Building C object freertos-RPi/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj
+[ 90%] Building C object freertos-RPi/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj
+[100%] Linking C static library libfreertos.a
+[100%] Built target freertos
