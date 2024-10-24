@@ -1,0 +1,10 @@
+10/24/24
+git clone https://github.com/develone/rp2350-freeRTOS-tests.git
+
+cd rp2350-freeRTOS-tests/freertos-RPi/
+
+These steps are needed since my github already has a repo FreeRTOS-Kernel.git
+
+git clone https://github.com/raspberrypi/FreeRTOS-Kernel.git
+
+git submodule update --init
