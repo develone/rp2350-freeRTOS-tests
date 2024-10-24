@@ -1,4 +1,6 @@
 10/24/24
+The following video was needed to learn about FreeRTOS-Kernel for pico2
+
 git clone https://github.com/develone/rp2350-freeRTOS-tests.git
 
 cd rp2350-freeRTOS-tests/freertos-RPi/
